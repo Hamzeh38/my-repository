@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int primaryChecking(int number){
+
+    /*Checking if primary*/
     int is_primary = 1;
     if(number <= 1)
         is_primary = 0;
@@ -11,22 +13,24 @@ int primaryChecking(int number){
     return is_primary;
 }
 
+/*
 int main(){
 
     int Input;
 
-    /*System input*/
+    System input
     printf("Enter a number : ");
     scanf("%d" , &Input);
 
-    /*Checking if primary*/
-    int check = primaryChecking(Input);
-      
-    /*Display*/
-    if (check == 1)
-        printf("%d is a primary number" , Input);
+    Call the function
+    int Check = primaryChecking(Input);
+
+    Display
+    if (Check == 1)
+        printf("%d is a prime number" , Input);
     else
-        printf("%d is not a primary number" , Input);
-        
+        printf("%d is not a prime number" , Input);
+
     return 0;
 }
+*/
