@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*Display all primary number lower than the input using the function 'primaryChecking' in "primaryNumber" file*/
+/*Display all prime number less than the input using the function 'primaryChecking' in "primeNumber" file*/
 int main(){
     
     /*Read the input number*/
@@ -11,7 +11,7 @@ int main(){
     /*Define the function primaryChecking to use it*/
     int primaryChecking(int number);
 
-    /*Display all primary number using the function*/
+    /*Display all prime number using the function*/
     int check = 0;
     for (int i = 2 ; i <= Input ; i++){
         check = primaryChecking(i);
